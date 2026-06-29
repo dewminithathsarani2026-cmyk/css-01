@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <style>
-        h1{ 
-            color: rgb(23, 158, 16);
-            text-align: center;
-            background-color: azure;
-            width: 50%;
-            padding: 25px;
-            font-size: xx-large;
+        #box {
+            color: blueviolet;
+
         }
 
-        p{
-            color: rgb(143, 109, 65);
+        #main container {
+            border-color: black;
+            font-size: large;
+        }
+
+        .container {
+            background-color: aquamarine;
+            color: blue;
+        }
+
+        .container1 {
+            background-color: bisque;
+            color: aqua;
+        }
+
+        .container2 {
+            background-color: rgb(8, 117, 81);
+            color: rgb(246, 8, 47);
         }
     </style>
+    <link rel="stylesheet" href="assert/style.css">
+
 
 
 
 </head>
-<body style="background-color: beige; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aqua; background-image: url(https://learn.zoner.com/wp-content/uploads/2025/04/zoner-ai-image-creator.jpg); background-size: cover;" >
-    <h1 style="color: blueviolet;" > Welcome to my website</h1>
-    <h1>Welocme to my web site</h1>
-    <p>this is my web site</p>
-    <h1>Welocme to my web site</h1>
-    <h1>Welocme to my web site</h1>
-    <p style="background-color: azure; width: 50%;">this is my web site</p>
-    <h1 style="color: rgb(240, 17, 17);">Welocme to my web site</h1>
-    <h1>Welocme to my web site</h1>
-    <h1>Welocme to my web site</h1>
-    <p style="color: blue;">this is my web site</p>
-    
+
+<body
+    style="background-color: beige; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aqua; background-image: url(https://learn.zoner.com/wp-content/uploads/2025/04/zoner-ai-image-creator.jpg); background-size: cover;">
+    <h1 id="box"> Welcome to my website</h1>
+
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Build Beautiful Web Interfaces Effortlessly</h1>
+                <p>A clean, robust, and completely responsive HTML & CSS layout architecture designed to fast-track your
+                    next development project.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">Explore Features</a>
+                    <a href="#contact" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-display">
+                    <code>
+                        <span class="code-tag">&lt;div</span> <span class="code-attr">class</span>=<span class="code-val">"awesome-ui"</span><span class="code-tag">&gt;</span><br>
+                        &nbsp;&nbsp;<span class="code-tag">&lt;h1&gt;</span>Hello World<span class="code-tag">&lt;/h1&gt;</span><br>
+                        <span class="code-tag">&lt;/div&gt;</span>
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="main container">
+        <div class="container1">
+            <h1>Welocme to my web site</h1>
+        </div>
+        <div class="container2">
+            <p>this is my web site</p>
+        </div>
+        <h1>Welocme to my web site</h1>
+        <h1>Welocme to my web site</h1>
+        <p style="background-color: azure; width: 50%;">this is my web site</p>
+        <h1 style="color: rgb(240, 17, 17);">Welocme to my web site</h1>
+        <h1>Welocme to my web site</h1>
+        <h1>Welocme to my web site</h1>
+        <p style="color: blue;">this is my web site</p>
+    </div>
     <p>this is my web site</p>
     <p style="background-color: antiquewhite; width: fit-content;">this is my web site</p>
     <p>this is my web site</p>
-    
-    
+
+
     <p>this is my web site</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>

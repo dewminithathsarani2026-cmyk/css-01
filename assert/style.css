@@ -1,0 +1,12 @@
+ h1 {
+     color: rgb(23, 158, 16);
+     text-align: center;
+     background-color: azure;
+     width: 50%;
+     padding: 25px;
+     font-size: xx-large;
+ }
+
+ p {
+     color: rgb(143, 109, 65);
+ }
